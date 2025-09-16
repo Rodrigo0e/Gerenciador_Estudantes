@@ -34,18 +34,18 @@ O programa apresenta um menu interativo no terminal, que exibe as opções numer
 
 Resumidamente como o código realiza cada funcionalidade:
 
-Cadastro: lê nome, idade e notas do usuário, valida e adiciona um novo estudante ao array de estudantes.
+- Cadastro: lê nome, idade e notas do usuário, valida e adiciona um novo estudante ao array de estudantes.
 
-Listagem: percorre a lista de estudantes e exibe nome, idade e notas de cada um.
+- Listagem: percorre a lista de estudantes e exibe nome, idade e notas de cada um.
 
-Busca: recebe um termo, filtra e mostra estudantes cujo nome contém esse termo (case insensitive).
+- Busca: recebe um termo, filtra e mostra estudantes cujo nome contém esse termo (case insensitive).
 
-Edição: localiza o estudante pelo nome, permite alterar nome, idade e notas, mantendo dados antigos se o usuário não informar novos valores.
+- Edição: localiza o estudante pelo nome, permite alterar nome, idade e notas, mantendo dados antigos se o usuário não informar novos valores.
 
-Remoção: encontra o estudante pelo nome e remove do array.
+- Remoção: encontra o estudante pelo nome e remove do array.
 
-Cálculo de médias: calcula a média das notas individuais, a média geral da turma e identifica o estudante com maior média.
+- Cálculo de médias: calcula a média das notas individuais, a média geral da turma e identifica o estudante com maior média.
 
-Relatórios: filtra e lista estudantes aprovados (média ≥ 7), em recuperação (5 ≤ média < 7) e reprovados (média < 5).
+- Relatórios: filtra e lista estudantes aprovados (média ≥ 7), em recuperação (5 ≤ média < 7) e reprovados (média < 5).
 
-Menu interativo: apresenta opções no terminal para o usuário escolher e executar as ações acima, repetindo até o usuário sair.
+- Menu interativo: apresenta opções no terminal para o usuário escolher e executar as ações acima, repetindo até o usuário sair.
