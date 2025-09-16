@@ -1,34 +1,34 @@
 # Gerenciador_Estudantes
 
-Como cada funcionalidade foi implementada
+FUNcionalidades
 
-Cadastro de estudantes
+1. Cadastro de estudantes
 O programa lê o nome, idade e notas inseridos pelo usuário no terminal, valida esses dados (nome não vazio, idade positiva, notas entre 0 e 10) e adiciona um novo objeto estudante no array estudantes.
 
-Listagem
+2. Listagem
 Percorre o array estudantes e imprime no terminal o nome, idade e as notas de cada estudante cadastrados.
 
-Busca
+3. Busca
 Recebe um texto do usuário e filtra o array estudantes para mostrar todos os estudantes cujo nome contém esse texto, ignorando maiúsculas e minúsculas.
 
-Edição
+4. Edição
 Busca o estudante pelo nome, e permite alterar nome, idade e notas. Caso algum campo fique vazio, mantém o dado antigo. Após validar os novos dados, atualiza o objeto do estudante no array.
 
-Remoção
+5. Remoção
 Procura o estudante pelo nome e remove o objeto correspondente do array estudantes.
 
-Cálculo de médias
+6. Cálculo de médias
 Calcula a média das notas de cada estudante individualmente, a média geral da turma (considerando todas as notas de todos os estudantes) e identifica o estudante com maior média.
 
-Relatórios
+7. Relatórios
 Com base nas médias individuais, o sistema separa os estudantes em três grupos:
 
-Aprovados (média ≥ 7)
-Recuperação (5 ≤ média < 7)
-Reprovados (média < 5)
+- Aprovados (média ≥ 7)
+- Recuperação (5 ≤ média < 7)
+- Reprovados (média < 5)
 Cada grupo é listado separadamente no terminal.
 
-Interface
+8. Interface
 O programa apresenta um menu interativo no terminal, que exibe as opções numeradas. O usuário escolhe uma opção digitando o número e o sistema executa a ação correspondente.
 
 
