@@ -1,6 +1,6 @@
 # Gerenciador_Estudantes
 
-FUNcionalidades
+Funcionalidades
 
 1. Cadastro de estudantes
 O programa lê o nome, idade e notas inseridos pelo usuário no terminal, valida esses dados (nome não vazio, idade positiva, notas entre 0 e 10) e adiciona um novo objeto estudante no array estudantes.
